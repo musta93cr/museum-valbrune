@@ -4,31 +4,116 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Accueil | Muséum de Valbrune</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <meta name="description" content="">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-
+  
   <!-- 1. Feuille de style de Bootstrap : à ajouter ici (voir dossier technique, § Stack et versions) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
   <!-- 2. Votre feuille de style, TOUJOURS après celle de Bootstrap -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<!--<button class="btn btn-primary">teste bootstrap</button> -->
-  <header>
-    <!-- En-tête et navigation -->
-  </header>
+    <!--<button class="btn btn-primary">teste bootstrap</button> -->
+    
 
-  <main id="contenu">
-    <!-- Contenu principal de la page -->
-  </main>
+      <header>
+         <!-- En-tête et navigation -->
+        <div class="navbar navbar-expand-lg justify-content-between">
+            <div class="container-fluid w-100">
+                <!--logo clicable menant a la page "Accueil"-->
+                <a class="nav-link" href="index.html"><img src="assets/img/logo-museum-valbrune-blanc.svg" alt=""></a>
+                <button class=" navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
+                  <span class="navbar-toggler-icon"></span>
 
-  <footer>
-    <!-- Pied de page -->
-  </footer>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="nav-link active"aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="le-museum.html">Le Museum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="expositions.html">Expositions</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="infos-pratiques.html">Infos pratiques</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+                <button class="btn" type="button"><a href="infos-pratiques.html#tarifs">Billeterie</a></button>
+              </div>
 
+            </div>
+
+          </div>
+      </header>
+    
+      <main id="contenu">
+          <!-- Contenu principal de la page -->
+      </main>
+
+      <footer>
+          <!-- Pied de page -->
+          <div class="container-fluid text-center">
+
+              <!-- Première grande ligne -->
+              <div class="row text-center">
+
+                  <!-- Première colonne : logo et coordonnées -->
+                    <div class="col">
+                        <img src="assets/img/logo-museum-valbrune.svg" alt="">
+                        <div >
+                            <ul class="list-unstyled">
+                                <li>Adresse:Muséum de Valbrune 4 quai des Tanneurs,0000 Valbrune</li>
+                                <li>Téléphone:019900421742</li>
+                                <li>E-mail:contact@museum-valbrune.example</li>
+                            </ul>
+                         </div>
+                      </div>
+
+                    <!-- Deuxième colonne : horaires -->
+                    <div class="col">
+                        <h3>Horaires</h3>
+                            <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10H.Fermé le lundi</p>
+                    </div>
+
+                    <!-- Troisième colonne : liens utiles et réseaux sociaux -->
+                    <div class="col">
+                        <h3>Liens utiles</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="infos-pratiques.html">Infos pratiques</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                            </ul>
+
+                            <p>FB IG YT</p>
+    
+                    </div>
+
+              </div>
+
+              <!-- Deuxième grande ligne : copyright -->
+              <div class="row">
+                  <div class="col">
+                      <p>
+                          &copy; 2026 Muséum de Valbrune, site d'exercice réalisé par Moustapha Thioune
+                      </p>
+                  </div>
+              </div>
+
+           </div>
+      </footer>
+  
   <!-- 3. Script de Bootstrap (bundle) : à ajouter ici, juste avant </body> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+   
+
 </body>
-  </html>
+</html>
