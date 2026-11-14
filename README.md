@@ -26,7 +26,8 @@ CSS3: personnalisation graphique et mise en page.
 
 | Tag | Date | État du projet à cette date |
 |-----|------|-----------------------------|
-| semaine-1 |  |  |
+| semaine-1 | 14/11/2026 | Palier 1 terminé structure commune(header et footer);inégrations pages principales(index contact      
+                                            et infos-pratiques) et premières mise en forme Css et Bootstrap |
 | semaine-2 |  |  |
 | semaine-3 (option) |  |  |
 
