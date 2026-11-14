@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accueil | Muséum de Valbrune</title>
+  <meta name="description" content="">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  
+  <!-- 1. Feuille de style de Bootstrap : à ajouter ici (voir dossier technique, § Stack et versions) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- 2. Votre feuille de style, TOUJOURS après celle de Bootstrap -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--<button class="btn btn-primary">teste bootstrap</button> -->
+    
+
+      <header>
+         <!-- En-tête et navigation -->
+        <nav class="navbar navbar-expand-lg justify-content-between">
+            <div class="container-fluid w-100">
+                <!--logo clicable menant a la page "Accueil"-->
+                <a class="nav-link" href="index.html"><img src="assets/img/logo-museum-valbrune.svg" alt=""></a>
+                <button class=" navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
+                  <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="nav-link active"aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="le-museum.html">Le Museum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="expositions.html">Expositions</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="infos-pratiques.html">Infos pratiques</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active " href="contact.html">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+                <button class="btn" type="button"><a href="infos-pratiques.html#tarifs">Billeterie</a></button>
+              </div>
+
+            </div>
+
+        </navv>
+      </header>
+      
+      
+      <main>
+        
+         <nav>
+            
+            <ol class="breadcrumb">
+              <li class=" breadcrumb-item" ><a href="index.html">Accueil</a></li>
+              <li class=" breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          
+        </nav>
+
+        <section class="contact chapo">
+
+            <div class="container-fluid">
+                
+                <h1>Contact</h1>
+                <span class="titreSecondaire">Une question,une réservation de groupe,une demande presse?Ecrivez-nous.</span>
+  
+            </div>
+
+        </section>
+        <section class="ecrivezNous">
+
+            <h2>Ecrivez-nous</h2>
+           
+           
+            <div class="row gx-4">
+
+                <div class="col-12 col-lg-7">
+
+                    <form action="" class="form row g-3 ">
+
+                        <div class="col-12 col-lg-6 d-flex flex-column">
+                            <label for="nom">Nom*</label>
+                            <input type="text" name="" id="nom">
+                        </div>
+                        
+                        <div class="col-12 col-lg-6 d-flex flex-column ">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" name="" id="prenom">
+
+
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex flex-column">
+                            <label for="email">Adresse e-mail*</label>
+                            <input type="text" name="" id="email">
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex flex-column">
+                            <label for="telephone">Téléphone</label>
+                            <input type="text" name="" id="telephone">
+                        </div>
+                        <div class="col-12 d-flex flex-column">
+                            <label for="objet">Objet</label>
+                            <input type="text" id="objet" placeholder="Renseignement">
+                        </div>
+                        <div class="col-12 d-flex flex-column">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" maxlength="500"></textarea>
+                        </div>
+                        <div class="col-12 d-flex flex-column"> 
+
+                            <div class="form-check">
+
+                                
+                                <input class="form-check-input" type="checkbox" id="conditionFormulaire">
+                                <label class="form-check-label" for="conditionFormulaire">J'acepte que mes données soient utilisées pour traiter ma demande </label>
+                                
+                            </div>
+
+                            <div>
+                                <button > Envoyer</button>
+                                <p class="titreSecondaire">Les champs marqués d'un astérisque(*) sont obligatoires.</p>
+                            </div>
+                            
+
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="coordonnees col-12 col-lg-5">
+
+                    <div class="nousTrouver">
+                        <h3>Nous trouver</h3>
+                        <div class=" d-flex  align-items-center gap-2">
+                            <img src="../museum-valbrune/assets/icones/plan.svg" alt="" class="img-fluid ">
+                            <p>4,quai des Tanneurs,00000 Valbrune</p>
+                        </div>
+                        <div class=" d-flex align-items-center gap-2">
+                            <img src="../museum-valbrune/assets/icones/telephone.svg" alt="">
+                            <p>Tél.0199004217(du mardi au vendredi,de 9h à 12h30)</p>
+
+                        </div>
+                        <div class=" d-flex  align-items-center gap-2">
+                            <img src="../museum-valbrune/assets/icones/courriel.svg" alt="">
+                            <p>contact@museum-valbrune.example</p>
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="reseauxSociaux">
+                        
+                        <div>
+                            
+                            <h3>Suivez-nous</h3>
+                            
+                        </div>
+                        <div class="d-flex gap-2">
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-primary">FB</div>
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger-subtle">IG</div>
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger">YT</div>
+
+                            </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </section>
+
+
+      </main>
+      <footer>
+          <!-- Pied de page -->
+          <div class="container-fluid text-center">
+
+              <!-- Première grande ligne -->
+              <div class="row text-center gx-4">
+
+                  <!-- Première colonne : logo et coordonnées -->
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/img/logo-museum-valbrune-blanc.svg" alt="">
+                        <div >
+                            <ul class="list-unstyled">
+                                <li>Adresse:Muséum de Valbrune 4 quai des Tanneurs,0000 Valbrune</li>
+                                <li>Téléphone:019900421742</li>
+                                <li>E-mail:contact@museum-valbrune.example</li>
+                            </ul>
+                         </div>
+                      </div>
+
+                    <!-- Deuxième colonne : horaires -->
+                    <div class="col-12 col-lg-4">
+                        <h3>Horaires</h3>
+                            <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10H.Fermé le lundi</p>
+                    </div>
+
+                    <!-- Troisième colonne : liens utiles et réseaux sociaux -->
+                    <div class="col-12 col-lg-4 text-start">
+                        <h3>Liens utiles</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="infos-pratiques.html">Infos pratiques</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                            </ul>
+
+                            <div class="d-flex gap-2">
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-primary">FB</div>
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger-subtle">IG</div>
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger">YT</div>
+
+                            </div>
+    
+                    </div>
+
+              </div>
+
+              <!-- Deuxième grande ligne : copyright -->
+              <div class="row">
+                  <div class="col">
+                      <p>
+                          &copy; 2026 Muséum de Valbrune, site d'exercice réalisé par Moustapha Thioune
+                      </p>
+                  </div>
+              </div>
+
+           </div>
+      </footer>
+  
+  <!-- 3. Script de Bootstrap (bundle) : à ajouter ici, juste avant </body> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   
+
+</body>
+</html>
+
+</body>
+   
+</html>

@@ -10,7 +10,7 @@ Projet de formation : intégration HTML5 / Bootstrap d'un site vitrine à partir
 
 ## Palier atteint
 
-- [ ] Palier 1 : Socle
+- [x] Palier 1 : Socle 14/11/2026
 - [ ] Palier 2 : Standard
 - [ ] Palier 3 : Avancé
 
@@ -18,6 +18,9 @@ Projet de formation : intégration HTML5 / Bootstrap d'un site vitrine à partir
 
 - Adresse du dépôt : https://github.com/musta93cr/museum-valbrune
 - Version de Bootstrap utilisée (relevée sur getbootstrap.com le jour du lancement) :version 5.3.8
+-Version HTML5:structure des pages.
+CSS3: personnalisation graphique et mise en page.
+-Git et Github:gestion des versions et suivi de prjet.
 
 ## Tags du vendredi
 
@@ -65,6 +68,41 @@ Création d'une barre de navigation responsive avec un menu burger pour les peti
 Mise en place des différents liens de navigation entre les pages.
 
 Création du footer avec trois colonnes pour organiser les informations, les horaires et les liens utiles, ainsi qu'une ligne pour le copyright.
+
+Jour 3 et 4:
+création de la page "museum.html"
+
+Intégration de la structure principale de la page.
+Création des différentes sections de présentation du Muséum.
+
+Intégration des images et des éléments graphiques.
+
+Travail sur la présentation de la direction et l'organisation des contenus.
+
+Ajustements de la mise en page avec Bootstrap et Flexbox.
+
+Jour 5:
+création page "infos-pratiques.html" et "contact.html"
+
+Pour la page info-pratique,j'ai fait les réalisations suivantes:
+
+intégration de la structure principale de la page;
+
+intégration et organisation des différentes sections de contenu;
+
+mise en place des éléments Bootstrap pour la navigation et la FAQ.
+
+Pour la page de contact,j'ai réalisé un travail suivant:
+
+intégration de la structure principale de la page;
+
+création et mise en forme du formulaire de contact;
+
+intégration des coordonnées et des réseaux sociaux;
+
+
+
+
 ## Lien de mise en ligne (palier 3)
 
 ## Questions posées au client et réponses obtenues
@@ -74,6 +112,17 @@ Création du footer avec trois colonnes pour organiser les informations, les hor
 |      |          |         |
 
 ## Difficultés rencontrées et solutions trouvées
+Organisation de la grille Bootstrap : comprendre l'imbrication des container, row et col, ainsi que la répartition des colonnes selon les points de rupture. Solution : utilisation de grilles imbriquées et adaptation des colonnes avec les classes responsive.
+
+
+
+Alignement des éléments : organiser les images, les textes, les pictogrammes et les blocs d'informations. Solution : utilisation de Flexbox et de ses propriétés d'alignement.
+
+Mise en forme du formulaire : organiser les champs sur plusieurs colonnes et adapter leur affichage selon la taille de l'écran. Solution : utilisation de la grille Bootstrap et des classes de formulaire.
+
+Intégration des composants Bootstrap : comprendre le fonctionnement de l'accordéon, des alertes et des boutons de fermeture. Solution : utilisation des classes et attributs nécessaires au fonctionnement des composants.
+
+Adaptation responsive : ajuster l'affichage des images, des tableaux et des différentes sections sur mobile et tablette. Solution : utilisation des classes responsive Bootstrap et ajustements CSS.
 
 ## Sources consultées
 Cahier des charges et wireframes fournis par Diginamic.

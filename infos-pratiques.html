@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Infos pratiques</title>
+  <meta name="description" content="">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  
+  <!-- 1. Feuille de style de Bootstrap : à ajouter ici (voir dossier technique, § Stack et versions) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- 2. Votre feuille de style, TOUJOURS après celle de Bootstrap -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+         <!-- En-tête et navigation -->
+        <nav class="navbar navbar-expand-lg justify-content-between">
+            <div class="container-fluid w-100">
+                <!--logo clicable menant a la page "Accueil"-->
+                <a class="nav-link" href="index.html"><img src="assets/img/logo-museum-valbrune.svg" alt=""></a>
+                <button class=" navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
+                  <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="nav-link active"aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="le-museum.html">Le Museum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="expositions.html">Expositions</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="infos-pratiques.html">Infos pratiques</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+                <button class="btn" type="button"><a href="infos-pratiques.html#tarifs">Billeterie</a></button>
+              </div>
+
+            </div>
+
+        </nav>
+      </header>
+    <main>
+         <nav>
+            <ol class="breadcrumb">
+              <li class=" breadcrumb-item" ><a href="index.html">Accueil</a></li>
+              <li class=" breadcrumb-item active" aria-current="page"> Infos pratiques</li>
+            </ol>
+           </nav>
+           <section class="infosPratiques chapo ">
+                <div class="container-fluid ">
+
+                    <h1>Infos pratiques</h1>
+                    <p>Tout ce qu'il faut savoir avant de venir.</p>
+                </div>
+
+           </section>
+           <section class="sommairePage">
+                    <ul class="row list-unstyled">
+                        <li class=" col-3 col-lg-auto"><a href="#Horaires">Horaires</a></li>
+                        <li class=" col-3 col-lg-auto"><a href="#Tarifs">Tarifs</a></li>
+                        <li class=" col-3 col-lg-auto"><a href="#Acces">Accès</a></li>
+                        <li class=" col-3 col-lg-auto"><a href="#Accessibilite">Accessibilité</a></li>
+                        <li class=" col-3 col-lg-auto" ><a href="#Questions-fréquentes">Questions fréquentes</a></li>
+                    </ul>
+
+           </section>
+           <section class="horairesTarifs">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 d-flex flex-column">
+                            <div class="d-flex align-items-center">
+                                <img src="../museum-valbrune/assets/icones/horloge.svg" alt="">
+                                <h3 id="Horaires">Horaires</h3>
+                            </div>
+                            <div>
+                                <table class="table">
+                                    <thead>
+                                        <th>Jour</th>
+                                        <th>Horaires</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Lundi</td>
+                                            <td><strong>Fermé</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mardi</td>
+                                            <td>10h-18h</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mercredi</td>
+                                            <td>10h-18h</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jeudi</td>
+                                            <td>10h-18h</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Vendredi</td>
+                                            <td>10h-18h</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Samedi</td>
+                                            <td>10h-19h</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dimanche</td>
+                                            <td>10h-19h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div>
+                                <p>Dernière entréé 45 minutes avant la fermeture.Fermé les 1er janvier,1er main et 25 décembre </p>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="d-flex align-items-center">
+                                <img src="../museum-valbrune/assets/icones/billet.svg" alt="">
+                                <h3 id="Tarifs">Tarifs</h3>
+                            </div>
+                            <div class="table-responsive-sm">
+                                <table class="table">
+                                    <thead>
+                                        <th>Catégorie</th>
+                                        <th>Tarif</th>
+                                        <th>Conditions</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Plein Tarif</td>
+                                            <td>9€</td>
+                                            <td></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Tarif réduit</td>
+                                            <td>6€</td>
+                                            <td>12-17 ans,étudiants,demandeurs d'emploi,sur justificatif</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Moins de 12ans</td>
+                                            <td>Gratuit</td>
+                                            <td></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Tarif famille</td>
+                                            <td>Tarif </td>
+                                            <td>Selon la règle habituelle</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Groupes(10 personnes et plus)</td>
+                                            <td>5€</td>
+                                            <td>Par personne,sur réservation</td>
+
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                                <div>
+                                    <p>Le billet donne accès à toute les expositions,permanentes et temporaires.</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div> 
+           </section>
+           <section id="Acces">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-flex flex-column">
+                            <div class="d-flex">
+                                <img src="../museum-valbrune/assets/icones/plan.svg" alt="">
+                                <h2>Accès</h2>
+                            </div>
+                            <div>
+                                <h3>Adresse</h3>
+                                <p>Muséum de Valbrune,4,quai des Tanneurs,00000 Valbrune</p>
+                                <span class="titreSecondaire">Accès,transports</span>
+                                <p>En tram:ligne B,arret Quai des Tanneurs.En bus:lignes 12 et 27,arret Halle aux draps.
+                                    A vélo:arceaux devant l'entrée principale.En voiture:
+                                    parking Saint-Roch(payant) à 300m.
+                                </p>
+                                <span class="titreSecondaire">Accès,à pieds</span>
+                                <p>Depuis la gare,comptez douze minutes à pied,vingt si vous 
+                                    vous arretez devant la vitrine du chocolatier.
+                                </p>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img src="../museum-valbrune/assets/img/plan-acces.webp" alt="" style="width: 1000px;height: 700px;" class="img-fluid">
+
+
+                        </div>
+
+                    </div>
+
+           </section>
+           <section id="Accessibilite">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center ">
+                    
+                    <img src="../museum-valbrune/assets/icones/accessibilite.svg" alt="">
+                    <h2>Accessibilité</h2>
+                </div>
+                    <p>Le Muséum est entièrement accessible aux personnes à mobilité réduite(ascenseurs et rampes).</p>
+
+                <div>
+                    <ul>
+                        <li>Pret de fauteuils roulants et de cannes-sièges à l'acceuil.</li>
+                        <li>Boucle magnétique à l'accueil et dans l'auditorium.</li>
+                        <li>Une visite par mois en langue des signes française(LSF).</li>
+                        <li>Chiens guides et d'assistance bienvenus.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+           </section>
+           <section id="Questions-fréquentes">
+
+                    <h2>Questions fréquentes</h2>
+                    <div class="accordion" id="FAQ1">
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#question1"
+                                        aria-controls="question1"
+                                        aria-expanded="false">
+                                        Peut-on prendre des photos?
+                                </button>
+
+                                <div id="question1"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#FAQ1">                                 
+                                    
+                                     <div class="accordion-body">
+
+                                        oui,sans flash et sans perche,sauf mention contraire dans les expositions temporaires.
+
+                                     </div>
+                                </div>
+
+                                
+
+
+                            <!--</h3>-->
+
+                        </div>
+
+                    </div>
+                    <div class="accordion" id="FAQ2">
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#question2"
+                                        aria-controls="question2"
+                                        aria-expanded="false">
+                                        Y a-t-il un vestiaire
+                                </button>
+
+                                <div id="question2"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#FAQ2">                                 
+                                    
+                                     <div class="accordion-body">
+
+                                        Oui,un vestiaire gratuit est à votre disposition à l'accueil.Les valises ne sont pas acceptées.
+
+                                     </div>
+                                </div>
+                                
+
+                                
+
+
+                            <!--</h3>-->
+
+                        </div>
+
+                    </div>
+                    <div class="accordion" id="FAQ3">
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+                                
+                                <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question3"
+                                aria-controls="question3"
+                                        aria-expanded="false">
+                                        Peut-on prendre des photos?
+                                    </button>
+                            </h3>
+
+                                <div id="question3"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#FAQ3">                                 
+                                    
+                                     <div class="accordion-body">
+
+                                       Peut-on pique-niquer?
+
+                                     </div>
+                                
+                                
+                                </div>
+
+                                
+
+
+                           
+
+                        </div>
+
+                    </div>
+                    
+                    
+                    <div class="accordion" id="FAQ4">
+
+                        <div class="accordion-item">
+
+                            <h3 class="accordion-header">
+                                
+                                
+                                <button class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#question4"
+                                        aria-controls="question4"
+                                        aria-expanded="false">
+                                        Combien de temps prévoir?
+                                </button>
+
+                               
+                                <div id="question1"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#FAQ1">                                 
+                                    
+                                     <div class="accordion-body">
+                                         
+                                        Comptez deux heures pour les expositions permanentes,une heure de plus avec une exposition temporaire.
+
+                                     </div>
+                                
+                                
+                                </div>
+
+                                
+
+
+                            <!--</h3>-->
+
+                        </div>
+
+                    </div>
+            
+
+           </section>
+    </main>
+    
+    <footer>
+        <!-- Pied de page -->
+          <div class="container-fluid text-center">
+
+              <!-- Première grande ligne -->
+              <div class="row text-center">
+
+                  <!-- Première colonne : logo et coordonnées -->
+                    <div class="col-12 col-lg-4">
+                        <img src="assets/img/logo-museum-valbrune-blanc.svg" alt="">
+                        <div >
+                            <ul class="list-unstyled">
+                                <li>Adresse:Muséum de Valbrune 4 quai des Tanneurs,0000 Valbrune</li>
+                                <li>Téléphone:019900421742</li>
+                                <li>E-mail:contact@museum-valbrune.example</li>
+                            </ul>
+                         </div>
+                      </div>
+
+                    <!-- Deuxième colonne : horaires -->
+                    <div class="col-12 col-lg-4">
+                        <h3>Horaires</h3>
+                            <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10H.Fermé le lundi</p>
+                    </div>
+
+                    <!-- Troisième colonne : liens utiles et réseaux sociaux -->
+                    <div class="col-12 col-lg-4 text-start">
+                        <h3>Liens utiles</h3>
+                        <ul class="list-unstyled">
+                                <li><a href="infos-pratiques.html">Infos pratiques</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                            </ul>
+
+                            <div class="d-flex gap-2">
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-primary">FB</div>
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger-subtle">IG</div>
+                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger">YT</div>
+
+                            </div>
+                            
+                        </div>
+
+              </div>
+
+              <!-- Deuxième grande ligne : copyright -->
+              <div class="row">
+                  <div class="col">
+                      <p>
+                          &copy; 2026 Muséum de Valbrune, site d'exercice réalisé par Moustapha Thioune
+                        </p>
+                  </div>
+              </div>
+
+           </div>
+      </footer>
+  
+      <!-- 3. Script de Bootstrap (bundle) : à ajouter ici, juste avant </body> -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      
+
+
+      
+ </body>
+</html>
