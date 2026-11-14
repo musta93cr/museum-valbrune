@@ -91,6 +91,13 @@
 .chapo{
   background-color:#f5F1E8;
 }
+nav button{
+  background-color: #3d6b35;
+}
+
+button:hover,button:focus{
+  background-color: #30562a;
+}
 
   .titreSecondaire,.date,.resume{
     font-size: 14px;
