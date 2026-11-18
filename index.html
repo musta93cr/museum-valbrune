@@ -15,179 +15,282 @@
 </head>
 <body>
     <!--<button class="btn btn-primary">teste bootstrap</button> -->
-    
-
-      <header>
-         <!-- En-tête et navigation -->
-        <nav class="navbar navbar-expand-lg justify-content-between">
-            <div class="container-fluid w-100">
-                <!--logo clicable menant a la page "Accueil"-->
-                <a class="nav-link" href="index.html"><img src="assets/img/logo-museum-valbrune.svg" alt=""></a>
-                <button class=" navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
-                  <span class="navbar-toggler-icon"></span>
-
+        
+    <!-- En-tête et navigation -->
+    <header>
+        
+        <nav class=" navbar navbar-expand-lg">
+                
+            <div class="container-fluid d-flex justify-content-between align-items-center">   
+                        
+                <a class="nav-link" href="index.html"  ><img src="../museum-valbrune/assets/img/logo-museum-valbrune.svg" alt="logo-museum-valbrune-noir"></a>
+                        
+                <button class="navbar-toggler " type="button" data-bs-target="#menu" data-bs-toggle="collapse" aria-controls="menu" aria-expanded="false">
+                    
+                     <span class="navbar-toggler-icon"></span>
+                
                 </button>
-                <div class="collapse navbar-collapse" id="menu">
-
-                  <ul class="navbar-nav ">
-                    <li class="nav-item">
-                      <a class="nav-link active"aria-current="page" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="le-museum.html">Le Museum</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="expositions.html">Expositions</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="infos-pratiques.html">Infos pratiques</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  
-                  
-                </ul>
-              </div>
-              <div>
-                
-                <button class="btn" type="button"><a href="infos-pratiques.html#tarifs">Billeterie</a></button>
-
-              </div>
-                
-              </div>
-
+                       
+                <div class="collapse navbar-collapse justify-content-center" id="menu">
+                        
+                    <ul class="navbar-nav justify-content-center" >
+                    
+                        <li class="nav-item"><a class="nav-link active text-decoration-underline " href="index.html">Accueil</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="le-museum.html">Le Muséum</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link"   href="expositions.html" >Expositions</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="agenda.html">Agenda</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="infos-pratiques.html">Infos pratiques</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                        
+                </div>
+                        
             </div>
-
-        </navv>
-      </header>
+            
+            <div class="d-none d-lg-block">
+                
+                    <a href="" class="btn position-fixed top-0 end-0 m-3 z-3  " >Billeterie</a>
+                    
+            </div>
+                
+        </nav>
+      
+    </header>
     
+      
       <main id="contenu">
           <!-- Contenu principal de la page -->
            
           <div class="alert alert-dismissible">
-              info:message a communiquer au lancement
-              <button class="btn-close" data-bs-dismiss="alert"></button>
+              
+            <span class="legende">info:message a communiquer au lancement</span>
+              
+            <button class="btn-close" data-bs-dismiss="alert"></button>
 
           </div>
+          
           <section class="hero-grande-galerie section">
-              <h1>Le Muséum de Valbrune</h1>
-                  <p>Des cailloux,des plumes et beaucoup de questions:depuis 1868,le Muséum les rassemble sous un meme toit</p>
-                  <div hero-btn>
-                      <button class="btn btn-principale"><a href="infos-pratiques.html">Préparer ma visite</a></button>
-                      <button class="btn btn-secondaire"><a href="expositions.html">Voir les expositions</a></button>
+              
+            <h1>Le Muséum de Valbrune</h1>
+                 
+                <p> Des cailloux, des plumes et beaucoup de questions : depuis 1868, le Muséum 
+                    les rassemble sous un même toit.</p>
+                
+                <div class="row">
+
+                  <div class=" hero-btn d-flex justify-content-start">
+                    
+                    <a href="infos-pratiques.html" class="btn" >Préparer ma visite</a>
+                    
+                    <a href="expositions.html" class="btn btnSecondaire">Voir les expositions</a>
+                    
                   </div>
+                
+                </div>
+          
           </section>
-          <section class="aLaffiche">
-            <h2> A l'affiche</h2>
-                <p>TRois bonnes raisons de pousser la porte cet hiver </p>
-                <div class="container-fluid">
+          
+          
+          <section class="aLaffiche section">
+            
+            <h2> À l'affiche</h2>
+                
+            <p>Trois bonnes raisons de pousser la porte cet hiver </p>
+                
+            <div class="container-fluid">
 
-                  <div class="row">
-                    <div class="col  col-12 col-md-6 col-lg-4">
-                      <div class="card carte">
-
-                        <img class="card-img-top" src="../museum-valbrune/assets/img/expo-geants-jurassique.webp" alt=""> 
-                        <div class="card-body">
-                          <span class="badgePermanente rounded-pill badge">Permanente</span>
-                          <h3>Les Géants du Jurassique</h3>
-                          Grande galerie
-                          <p>squelette,empreintes et moulages:la grande galerie raconte 150 millions d'années en quarante pas</p>
-                          <a href="">En savoir plus</a>
-                        </div>
-                      </div>  
+              <div class="row">
+                  
+                <div class=" col-12 col-md-6 col-lg-4">
                       
-                    </div>
-                    <div class="col  col-12 col-md-6 col-lg-4">
+                  <div class="card ">
+
+                     <img class="card-img-top img-fluid" src="../museum-valbrune/assets/img/expo-geants-jurassique.webp" alt="Squelettes, empreintes fossiles et moulages présentés dans la grande galerie." width="800" height="600"> 
+                        
+                     <div class="card-body">
                           
-                      <div class="card carte">
+                        <span class=" rounded-pill badge">Permanente</span>
+                          
+                        <h3>Les Géants du Jurassique</h3>
+                          
+                        <span class="texteSecondaire">Grande galerie</span>
+                          
+                        <p>squelette,empreintes et moulages:la grande galerie raconte 150 millions d'années en quarante pas</p>
+                          
+                        <a href="">En savoir plus</a>
+                        
+                      </div>
+                      
+                  </div>  
+                      
+                </div>
+                    
+                    <div class="  col-12 col-md-6 col-lg-4">
+                          
+                      <div class="card">
 
-                        <img class="card-img-top" src="../museum-valbrune/assets/img/expo-lumieres-sous-sol.webp" alt=""> 
+                        <img class="card-img-top img-fluid" src="../museum-valbrune/assets/img/expo-lumieres-sous-sol.webp" alt="Collection de minéraux fluorescents illuminés dans une salle plongée dans l'obscurité." width="800" height="600"> 
+                        
                         <div class="card-body">
-                          <span class="badgeTemporaire rounded-pill badge">Temporaire</span>
+                          
+                          <span class="rounded-pill badgeTemporaire">Temporaire</span>
+                          
                           <h3>Lumières du sous-sol</h3>
-                              Du 14 octobre 2026 au 28 février 2027
+                              
+                          <span class="date">Du 14 octobre 2026 au 28 février 2027</span>
+                          
                           <p>Deux cents minéraux fluorescents s'allument sous vos yeux,dans une salle plongée dans le noir.</p>
+                          
                           <a href="">En savoir plus</a>
+                        
                         </div>
+                      
                       </div>  
                       
-                    
                     </div>
-                    <div class="col  col-12 col-md-6 col-lg-4 ">
+                    
+                    <div class=" col-12 col-md-6 col-lg-4 ">
                          
-                      <div class="card carte">
+                      <div class="card">
 
-                        <img class="card-img-top" src="../museum-valbrune/assets/img/expo-plumes-riviere.webp" alt=""> 
+                        <img class="card-img-top img-fluid" src="../museum-valbrune/assets/img/expo-plumes-riviere.webp" alt="Oiseaux des rivières, notamment des hérons, des martins-pêcheurs et des bergeronnettes." width="800" height="600"> 
+                        
                         <div class="card-body">
+                          
                           <span class="badgeTemporaire rounded-pill badge" >Temporaire</span>
+                          
                           <h3>Plumes de rivière</h3>
-                          <P>Du 2 décembre 2026 au 30 mai 2027</P>
+                          
+                          <span class="date">Du 2 décembre 2026 au 30 mai 2027</span>
+                          
                           <p>Hérons,martins-pecheurs et bergeronnettes:les oiseaux de nos rivières comme vous ne les avez jamais écoutés.</p>
+                          
                           <a href="">En savoir plus</a>
+                        
                         </div>
+                      
                       </div>  
                       
                     </div>
                     
                     
                   </div>
+                
                 </div>
 
 
           </section>
+          
+          
           <section class="LeMuseumEnChiffres section">
-              <h2>Le Musém en chiffres</h2>
+              
+            <h2>Le Musém en chiffres</h2>
+            
             <div class="row">
+              
               <div class="col-6 col-lg-3 ">
+                
                 <h3>48000</h3>
-                    <p>spécimens conservé</span></p>
+                
+                <span class="legende">spécimens conservé</span>
+              
               </div>
+              
+              
               <div class="col-6 col-lg-3">
+                
                 <h3>158</h3>
-                    <p>ans d'histoire</p>
+                    
+                <span class="legende">ans d'histoire</span>
+              
               </div>
+              
+              
               <div class="col-6 col-lg-3">
+                
                 <h3>62000</h3>
-                    <p>visiteurs en 2005</p>
+                   
+                <span class="legende">visiteurs en 2005</span>
+              
               </div>
+              
               <div class="col-6 col-lg-3">
+              
                 <h3>340</h3>
-                    <p>ateliers et visites par an</p>
+              
+                <span class="legende">ateliers et visites par an</span>
+              
               </div>
 
             </div>
 
           </section>
+          
+          
           <section class="section actualité">
-              <h2>Actualités</h2>
+              
+            <h2>Actualités</h2>
+            
             <div class="row">
-              <div class="col col-lg-8">
+              
+              <div class="col-12 col-lg-8">
+                
                 <article>
+                  
                   <p class="date">5 novembre 2026</p>
+                  
                   <h3><a href="">La salle des minéraux rouvre après six mois de travaux</a></h3>
+                  
                   <p class="resume">Nouvel éclairage,nouvelles vitrines et un sol enfin silencieux:la salle des minéraux vous attend.</p>
+                
                 </article>
+                
+                
                 <article>
-                   <p class="date">22 octobre 2026</p>
-                   <h3><a href="">Appel aux bénévoles pour l'inventaire d'hiver</a></h3>
-                   <p class="resume">Vous aimez les étiquettes bien rangées?Rejoignez l'équipe de l'inventaire,chaque mercredi après-midi.</p>
+                   
+                  <p class="date">22 octobre 2026</p>
+                  
+                  <h3><a href="">Appel aux bénévoles pour l'inventaire d'hiver</a></h3>
+                  
+                  <p class="resume">Vous aimez les étiquettes bien rangées?Rejoignez l'équipe de l'inventaire,chaque mercredi après-midi.</p>
+                
                 </article>
+                
+               
                 <article>
-                   <p class="date">8 octobre 2026</p>
-                   <h3><a href="">Une visite en langue des signes chaque mois</a></h3>
-                   <p class="resume">Dès novembre,une visite par mois est proposée en langue des signes française(LSF).Réservation conseillée.</p>
+                   
+                  <p class="date">8 octobre 2026</p>
+                  
+                  <h3><a href="">Une visite en langue des signes chaque mois</a></h3>
+                  
+                  <p class="resume">Dès novembre,une visite par mois est proposée en langue des signes française(LSF).Réservation conseillée.</p>
+                
                 </article>
 
               </div>
-              <div class="col col-lg-4 LaLettreduMuseum">
-                <form class="formulaire" action="">
-                    <h2>La lettre du Muséum</h2>
-                    <p></p>
-                    <label for="E-mail" >Votre adresse e-mail</label> <br>
-                    <input type="email" id="E-mail"> <br>
-                    <button>Je m'inscris</button>
-                    <p class="resume">Désinscription en un clic.Voir mentions légales</p>
+              
+              
+              <div class="col-12 col-lg-4 LaLettreduMuseum ">
+                
+                <form class="formulaire d-flex flex-column gap-2">
+                    
+                  <h2>La lettre du Muséum</h2>
+                    
+                  <p>Une fois par mois,le programme et une curiosité tiréee des réserves.</p>
+                    
+                  <label for="E-mail" >Votre adresse e-mail</label> <br>
+                  
+                  <input type="email" id="E-mail"> <br>
+                  
+                  <button class="btn">Je m'inscris</button>
+                  
+                  <p class="resume">Désinscription en un clic.Voir mentions légales</p>
 
                 </form>
 
@@ -196,114 +299,152 @@
             </div>
 
           </section>
-          <section class="preparerSaVisite">
-              <h3>Préparer sa visite</h3>
-              <div class="row">
-                <div class="col-12 col-md-4">
-
-                          
-                          <div>Horaires</div>
-                          <img class="pictogramme" src="../museum-valbrune/assets/icones/horloge.svg" alt="">
-                          <div><a href="">Voir les horaires</a></div>
-                       
-
-                   
-
-
-                    </div>
-                
-                
-              
-                <div class="col-12 col-md-4">
-                    
-
-                          <div>Tarifs</div>
-                          <img class="pictogramme" src="../museum-valbrune/assets/icones/billet.svg" alt="">
-                          <div><a href="">Voir les taris</a></div>
-                        
-
-
-                    </div>
-                
-                
-              
-                <div class="col-12 col-md-4">
-                   
-
-                          <div>Accès</div>
-                          <img class="pictogramme" src="../museum-valbrune/assets/icones/plan.svg" alt="">
-                          <div><a href="">Venir au Muséum</a></div>
-                        
-
+          
+          
+          <section class="PreparerSaVisite">
+             
+            <h3>Préparer sa visite</h3>
+            
+            <div class="row">
+            
+              <div class="col-12 col-md-4">
+         
+                  <img class="pictogramme" src="../museum-valbrune/assets/icones/horloge.svg" alt="">
+                  
+                  <div>Horaires</div>
+                  
+                  <span class="legende">Du mardi au dimanche,dès 10h.</span>
+                  
+                  <div><a href="infos-pratiques.html#horaires">Voir les horaires</a></div>
+                      
                 </div>
                 
                 
+                <div class="col-12 col-md-4">
+                  
+                  <img class="pictogramme" src="../museum-valbrune/assets/icones/billet.svg" alt="">
+                  
+                  <div>Tarifs</div>
+
+                  <span class="texteSecondaire">Gratuit pour les moins de 12 ans.</span>
+        
+        
+                  <div><a href="infos-pratiques.html#tarifs">Voir les tarifs</a></div>
+                        
+                </div>
+              
+                
+                <div class="col-12 col-md-4">
+                   
+                  <img class="pictogramme" src="../museum-valbrune/assets/icones/plan.svg" alt="">
+
+                  <div>Accès</div>
+
+                  <span>Tram B,rrêt Quai des Tanneurs.</span>
+                    
+                  <div><a href="infos-pratiques.html#acces">Venir au Muséum</a></div>
+                        
+                 </div>
 
               </div>
 
           </section>
-      </main>
+      
+        </main>
 
-      <footer>
+        <footer>
           <!-- Pied de page -->
           <div class="container-fluid text-center">
+            
+            <!-- Première grande ligne -->
+            
+            <div class="row text-center">
+              
+              <!-- Première colonne : logo et coordonnées -->
 
-              <!-- Première grande ligne -->
-              <div class="row text-center">
-
-                  <!-- Première colonne : logo et coordonnées -->
-                    <div class="col-12 col-lg-4">
-                        <img src="assets/img/logo-museum-valbrune-blanc.svg" alt="">
+                      <div class="col-12 col-md-4">
+              
+                        <img src="assets/img/logo-museum-valbrune-blanc.svg" alt="logo-Muséum-valbrune-blanc">
+                        
                         <div >
-                            <ul class="list-unstyled">
-                                <li>Adresse:Muséum de Valbrune 4 quai des Tanneurs,0000 Valbrune</li>
-                                <li>Téléphone:019900421742</li>
-                                <li>E-mail:contact@museum-valbrune.example</li>
-                            </ul>
-                         </div>
+                            
+                          <ul class="list-unstyled">
+                                
+                            <li>Adresse:Muséum de Valbrune 4 quai des Tanneurs,0000 Valbrune</li>
+                            
+                            <li>Téléphone:019900421742</li>
+                            
+                            <li>E-mail:contact@museum-valbrune.example</li>
+                            
+                          </ul>
+                         
+                        </div>
+                      
                       </div>
 
                     <!-- Deuxième colonne : horaires -->
-                    <div class="col-12 col-lg-4">
-                        <h3>Horaires</h3>
-                            <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10H.Fermé le lundi</p>
+                    <div class="col-12 col-md-4">
+                        
+                      <h3>Horaires</h3>
+                            
+                      <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10H.Fermé le lundi</p>
+                   
                     </div>
 
                     <!-- Troisième colonne : liens utiles et réseaux sociaux -->
-                    <div class="col-12 col-lg-4 text-start">
-                        <h3>Liens utiles</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="infos-pratiques.html">Infos pratiques</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="mentions-legales.html">Mentions légales</a></li>
-                            </ul>
+                    <div class="col-12 col-md -4 text-start">
+                        
+                      <h3>Liens utiles</h3>
+                            
+                      <ul class="list-unstyled">
+                      
+                        <li><a href="infos-pratiques.html">Infos pratiques</a></li>
+                      
+                        <li><a href="contact.html">Contact</a></li>
+                      
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                      
+                      </ul>
 
-                            <div class="d-flex gap-2">
-                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-primary">FB</div>
-                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger-subtle">IG</div>
-                                <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger">YT</div>
+                      
+                      <div class="d-flex gap-4">
+                      
+                        <div class="d-flex justify-content-center align-items-center rounded-circle cercle ">FB</div>
+                      
+                        <div class="d-flex justify-content-center align-items-center rounded-circle cercle ">IG</div>
+                      
+                        <div class="d-flex justify-content-center align-items-center rounded-circle cercle ">YT</div>
 
-                            </div>
+                      
+                      </div>
     
+
                     </div>
 
               </div>
 
               <!-- Deuxième grande ligne : copyright -->
-              <div class="row">
-                  <div class="col">
-                      <p>
-                          &copy; 2026 Muséum de Valbrune, site d'exercice réalisé par Moustapha Thioune
-                      </p>
-                  </div>
+              <div class="row texte-align-center">
+              
+                <div class="col">
+              
+                  <p>
+              
+                    &copy; 2026 Muséum de Valbrune, site d'exercice réalisé par Moustapha Thioune
+              
+                  </p>
+              
+              
+                </div>
+              
               </div>
 
            </div>
-      </footer>
+     
+          </footer>
   
   <!-- 3. Script de Bootstrap (bundle) : à ajouter ici, juste avant </body> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
    
-
 </body>
 </html>

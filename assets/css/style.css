@@ -46,22 +46,240 @@
    2. Variables de la charte (à compléter avec les codes de la planche)
    -------------------------------------------------------------------------- */
 :root {
-  /* --mv-encre: ;   */
-  /* --mv-lichen: ;  */
-  /* ...             */
+  --mv-encre:#1E2B33;  
+  --mv-lichen:#3d6b35 ;   
+   --mv-lichen-foncé:#30562a ; 
+   --mv-ocre:#C9842B;
+   --mv-craie:#f5F1E8;
+   --mv-ardoise:#4A5763;
+   --mv-blanc:#ffffff;
+   
+   --mv-h1:48px; /* police FRAUNCES 700*/
+   --mv-h2:34px;/*police FRAuNCES 600 */
+   --mv-h3:24px;/*police FRAUCES 400*/
+   --mv-font-size:17px;
+   --mv-line-height:1.6;
+   --mv-font-size2:14px;/*texte secondaire comme date et legende avec une couleur ardoise*/
+   --mv-width:1140px;
+   --mv-footer-height:48px;
+   --mv-radius-pill:50rem;
+   
+   
+   --mv-section-space:48px;
+   --mv-section-space:48px;
+   --mv-gutter:24px;
+   --mv-container-max-width:1148px;
+
 }
 
 /* --------------------------------------------------------------------------
    3. Vos styles
    -------------------------------------------------------------------------- */
-  
-   h1{
-    font-family: "Fraunces";
-    font-weight:700;
-    font-size: 36px;
-    color: #000;
+  .chapô{
+    background-color: var(--mv-craie);
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
-  h2{
+
+   h1{
+    font-size: var(--mv-h1);
+    font-family: "Fraunces";
+    font-weight: 700;
+  }
+
+  @media screen and (max-width :768px) {
+    :root{
+      --mv-h1:36px;
+    }
+  }
+
+  p{
+    font-family: "Atkinson Hyperlegible ";
+    font-weight:700;
+    font-size:var(--mv-font-size) ;
+    color: var(--mv-encre);
+    line-height: var(--mv-line-height);
+  }
+
+  nav{
+    margin: var(--mv-section-space);
+  }
+  section{
+    margin: var(--mv-section-space);
+    max-width: var(--mv-width);
+  }
+@media screen and (max-width:768px) {
+  :root{
+    --mv-section-space:32px;
+  }
+  
+}
+.row{
+      --bs-gutter:var(--mv-gutter);
+}
+  .btn{
+  background-color: var(--mv-lichen);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.btn:hover,.btn:focus{
+  background-color: var(--mv-lichen-foncé);
+  color: var(--mv-blanc);
+}
+
+.btnSecondaire{
+  background-color: var(--mv-blanc);
+  color: var(--mv-encre);
+  border-radius: 8px;
+}
+
+
+.badge {
+  background-color: var(--mv-blanc);
+  color: var(--mv-encre);
+  border: 1px solid var(--mv-encre);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+.texteSecondaire,.date,.resume,.legende{
+    font-size: var(--mv-font-size2);
+    color: var(--mv-ardoise);
+  }
+
+  a{
+    text-decoration:underline;
+    color: var(--mv-lichen);
+  }
+  .card{
+    border-radius: 8px;
+  }
+
+  footer{
+    background-color: var(--mv-encre);
+    color: var(--mv-blanc);
+  }
+  footer p,
+  footer a{
+    color: var(--mv-blanc);
+  }
+
+  .cercle{
+  border: 1px solid;
+   width: 40px;
+  height: 40px;
+}
+
+
+  /*index*/
+
+  .hero-grande-galerie {
+    background-image:
+     url("../img/hero-grande-galerie.webp"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 440px;
+  }
+
+  .hero-grande-galerie p{
+    color: var(--mv-blanc);
+  }
+
+  .formulaire input,
+  .formulaire button{
+    width: 100%;
+  }
+
+  .LaLettreduMuseum{
+    background-color: var(--mv-craie);
+  }
+
+.LeMuseumEnChiffres{
+  background-color: var(--mv-craie);
+}
+
+.PreparerSaVisite{
+  background-color: var(--mv-craie);
+}
+
+
+
+/* expostions*/
+
+
+.expositions{
+  background-color: var(--mv-craie);
+  height: auto;
+}
+
+.btnTemporaire{
+  background-color: var(--mv-ocre);
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.badgeTemporaire{
+  background-color: var(--mv-ocre);
+  color: var(--mv-ardoise);
+  border-radius: var(--mv-radius-pill);
+
+  
+}
+  
+
+
+.venirEnGroupe{
+  background-color: var(--mv-craie);
+}
+
+
+/*infos-pratiques*/
+
+#accessibilite{
+  background-color: var(--mv-craie);
+}
+
+/* coordonnees */
+
+
+.nousTrouver{
+  background-color: var(--mv-craie);
+}
+
+.cercle{
+  border: 1px solid;
+   width: 50px;
+  height: 50px;
+}
+
+/*  le Museum*/
+.card{
+  height: 100%;
+  
+}
+.nosMissions{
+  background-color: var(--mv-craie);
+}
+
+.trait{
+  background-color: var(--mv-ocre);
+  display: block;
+  max-width: 100%;
+  height: 5px;
+}
+
+.trait2{
+  background-color: var(--mv-ocre);
+  display: block;
+  width:5px;
+}
+
+
+
+  /* h2{ 
     font-family: "Fraunces";
     font-weight: 600;
     font-size: 34px;
@@ -91,12 +309,15 @@
 .chapo{
   background-color:#f5F1E8;
 }
-nav button{
-  background-color: #3d6b35;
+.btn{
+  background-color: var(--mv-lichen);
+  color: #ffffff;
+  border-radius: 8px;
 }
 
-button:hover,button:focus{
-  background-color: #30562a;
+.btn:hover,.btn:focus{
+  background-color:var(--mv-lichen-foncé);
+  color: #ffffff;
 }
 
   .titreSecondaire,.date,.resume{
@@ -259,7 +480,7 @@ footer{
 footer p,footer h3,footer li,footer a{
   color: #ffffff;
 }
- /* page le Museum */
+ /* page le Museum 
 
  .heroMuseum{
   background-color: #f5F1E8;
@@ -284,7 +505,7 @@ footer p,footer h3,footer li,footer a{
  }
     
 
- /* infos pratiques*/
+ /* infos pratiques
 
  .infosPratiques{
   background-color:#f5F1E8
@@ -298,7 +519,7 @@ footer p,footer h3,footer li,footer a{
 
 
 
-/* contact*/
+/* contact
 
 .ecrivezNous button{
   color: #ffffff;
@@ -312,3 +533,4 @@ footer p,footer h3,footer li,footer a{
 .reseauxSociaux{
   background-color: #ffffff;
 }
+ */

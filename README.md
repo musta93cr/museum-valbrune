@@ -82,8 +82,8 @@ Travail sur la présentation de la direction et l'organisation des contenus.
 
 Ajustements de la mise en page avec Bootstrap et Flexbox.
 
-Jour 5:
-création page "infos-pratiques.html" et "contact.html"
+
+-Jour 5:création page "infos-pratiques.html" et "contact.html"
 
 Pour la page info-pratique,j'ai fait les réalisations suivantes:
 
@@ -102,6 +102,63 @@ création et mise en forme du formulaire de contact;
 intégration des coordonnées et des réseaux sociaux;
 
 
+-Jour 6: application de la charte graphique et harmonisation
+
+reprise du header sur les différentes pages pour harmoniser la navigation.
+
+modification du positionnement du bouton Billetterie;
+
+travail sur les arrondis des boutons et des éléments graphiques;
+
+ajustement des états de survol et de focus;
+
+amélioration de l'espacement des éléments du formulaire;
+
+harmonisation des pictogrammes et des réseaux sociaux;
+
+ajout d'une bordure au badge présent sur la page d'accueil;
+
+ajustement de l'alignement entre les textes et les pictogrammes;
+
+
+-Jour 7: page Le Muséum
+
+travail sur le contenu textuel et visuel de la page;
+
+intégration des repères chronologiques;
+
+mise en forme de la citation;
+
+ajustement de la disposition des textes et des images;
+
+travail sur les alignements et les espacements;
+
+
+-Jour 8:page Expositions:
+
+Utilisation de Flexbox et des classes Bootstrap pour gérer les alignements et la répartition des éléments.
+
+Aide et ressources utilisées
+
+Documentation Bootstrap.
+
+Documentation MDN.
+
+Assistance IA pour comprendre les comportements CSS.
+
+Jour 8 – Page Expositions
+
+Travail effectué
+
+création des cartes horizontales;
+
+intégration des badges;
+
+mise en place de l'encart consacré aux groupes;
+
+travail sur la disposition des images et des textes;
+
+ajustement de la mise en page responsive;
 
 
 ## Lien de mise en ligne (palier 3)
@@ -113,17 +170,64 @@ intégration des coordonnées et des réseaux sociaux;
 |      |          |         |
 
 ## Difficultés rencontrées et solutions trouvées
+Jour 2:structure commune et intégration Bootstrap
+
 Organisation de la grille Bootstrap : comprendre l'imbrication des container, row et col, ainsi que la répartition des colonnes selon les points de rupture. Solution : utilisation de grilles imbriquées et adaptation des colonnes avec les classes responsive.
 
+Solution : utilisation des classes responsive Bootstrap et ajustements CSS.
+
+Jour 3-4:Page le Muséum
+difficultés:
+
+Organisation des contenus, alignement des images et des textes, gestion des espaces entre les différentes sections.
+ 
+solution:
+
+Utilisation de grilles Bootstrap et de propriétés Flexbox pour gérer les alignements et la disposition des éléments.
+
+Jour 5: pages infos-prariques et contact
+
+difficultés:
+
+-Compréhension du fonctionnement des composants Bootstrap, notamment l'accordéon, ainsi que la mise en forme du formulaire pour organiser ses champs sur plusieurs colonnes et adapter son affichage selon la taille de l'écran. 
+
+-Adaptation responsive : ajuster l'affichage des images, des tableaux et des différentes sections sur mobile et tablette. 
 
 
-Alignement des éléments : organiser les images, les textes, les pictogrammes et les blocs d'informations. Solution : utilisation de Flexbox et de ses propriétés d'alignement.
+solutions:
 
-Mise en forme du formulaire : organiser les champs sur plusieurs colonnes et adapter leur affichage selon la taille de l'écran. Solution : utilisation de la grille Bootstrap et des classes de formulaire.
+Utilisation de classes Bootstrap pour les formulaires et attributs nécessaires au fontionnement de l'accordéon;
+ 
+utilisation des classes responsive Bootstrap et ajustements CSS;
 
-Intégration des composants Bootstrap : comprendre le fonctionnement de l'accordéon, des alertes et des boutons de fermeture. Solution : utilisation des classes et attributs nécessaires au fonctionnement des composants.
 
-Adaptation responsive : ajuster l'affichage des images, des tableaux et des différentes sections sur mobile et tablette. Solution : utilisation des classes responsive Bootstrap et ajustements CSS.
+-Jour6:application de la charte et harmonisation
+
+difficultés:
+
+positionnement du bouton Billeterie parce qu'avec l'insération de celui-ci dans le Ul de la nav en-tête de page ,il ne se positionnait pas au bon endroit a cause du justify-content-between du nav.
+
+solution:déplacement du bouton  Billetterie dans un conteneur indépendant de celui contenant le logo et la navigation.
+
+difficulté à retrouver les mêmes valeurs d'arrondis  que celles de la maquette.
+
+solution:consultation de la documentation Bootstrap pour retrouver les classes d'arrondis adaptées.
+
+-Jour7: page Le Muséum
+
+difficultés:Gestion de l'alignement des éléments et adaptation de leur disposition selon les dimensions disponibles.
+
+solution:utilisation de Flexbox et des classes Bootstrap pour gérer les alignements et la répartition des éléments.
+
+-Jour 8 : page Expositions
+
+difficultés:
+
+trouver les bonnes proportions des images et organiser les éléments dans les cartes.
+
+solution:
+
+utilisation des classes de grille et des outils Flexbox et de Bootstrap pour organiser les contenus et adapter leur affichage.
 
 ## Sources consultées
 Cahier des charges et wireframes fournis par Diginamic.
