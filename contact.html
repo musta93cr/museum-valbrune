@@ -17,14 +17,16 @@
     <!--<button class="btn btn-primary">teste bootstrap</button> -->
     
          <!-- En-tête et navigation -->
-    
+    <a href="#contenu" class="visually-hidden-focusable">Aller au contenu principal dela page </a>
+
+
     <header>
         
         <nav class=" navbar navbar-expand-lg">
                 
             <div class="container-fluid d-flex justify-content-between align-items-center">   
                         
-                <a class="nav-link" href="index.html"  ><img src="../museum-valbrune/assets/img/logo-museum-valbrune.svg" alt="logo-museum-valbrune-noir"></a>
+                <a class="nav-link" href="index.html"  ><img src="assets/img/logo-museum-valbrune.svg" alt="logo-museum-valbrune-noir"></a>
                         
                 <button class="navbar-toggler " type="button" data-bs-target="#menu" data-bs-toggle="collapse" aria-controls="menu" aria-expanded="false">
                     
@@ -51,21 +53,21 @@
                     </ul>
                         
                 </div>
+
+                <div class="d-none d-lg-block position-fixed end-0 m-3 z-3  ">
+                
+                    <a href="" class="btn" >Billeterie</a>
+                    
+                </div>
                         
             </div>
             
-            <div class="d-none d-lg-block">
-                
-                    <a href="" class="btn position-fixed top-0 end-0 m-3 z-3  " >Billeterie</a>
-                    
-            </div>
-                
         </nav>
       
       </header>
       
       
-      <main>
+      <main id="contenu">
         
          <nav>
             
@@ -104,49 +106,55 @@
 
                         <div class="col-12 col-lg-6 d-flex flex-column">
                             
-                            <label for="nom">Nom*</label>
+                            <label for="nom" class="form-label">Nom*</label>
                             
-                            <input type="text"  id="nom" required>
+                            <input type="text"  id="nom" class="form-control" required>
                         
                         </div>
                         
                         
                         <div class="col-12 col-lg-6 d-flex flex-column ">
                             
-                            <label for="prenom">Prénom</label>
+                            <label for="prenom" class="form-label">Prénom</label>
                         
-                            <input type="text"  id="prenom">
+                            <input type="text"  id="prenom" class="form-control">
 
                         </div>
 
                         
                         <div class="col-12 col-lg-6 d-flex flex-column">
                             
-                            <label for="email">Adresse e-mail*</label>
+                            <label for="email" class="form-label">Adresse e-mail*</label>
                        
-                            <input type="text"  id="email" required>
+                            <input type="text"  id="email" required class="form-control">
                        
                         </div>
                         
                        
                         <div class="col-12 col-lg-6 d-flex flex-column">
                             
-                            <label for="telephone">Téléphone</label>
+                            <label for="telephone" class="form-label">Téléphone</label>
                        
-                            <input type="text"  id="telephone">
+                            <input type="number"  id="telephone" class="form-control">
                         
                         </div>
                         
                         <div class="col-12 d-flex flex-column">
                        
-                            <label for="objet">Objet</label>
+                            <label for="objet" class="form-label">Objet</label>
                        
-                            <select id="objet"> 
+                            <select id="objet" class="form-select"> 
+                                
                                 <option value="">Renseignement</option>
+                                
                                 <option value="">Réservation</option>
+                                
                                 <option value="">Visite en groupe</option>
+                                
                                 <option value="">Visite en famille</option>
+                                
                                 <option value="">Visite pour PMR</option>
+                            
                             </select>
                        
                         </div>
@@ -154,9 +162,9 @@
                        
                         <div class="col-12 d-flex flex-column">
                        
-                            <label for="message">Message</label>
+                            <label for="message" class="form-label">Message</label>
                        
-                            <textarea id="message" name="message" maxlength="500" required></textarea>
+                            <textarea id="message" name="message" maxlength="500" required class="form-control"></textarea>
                        
                         </div>
                        
@@ -289,7 +297,7 @@
                         
                       <h3>Horaires</h3>
                             
-                      <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10H.Fermé le lundi</p>
+                      <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10h-19h.Fermé le lundi</p>
                    
                     </div>
 

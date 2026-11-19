@@ -25,11 +25,9 @@ CSS3: personnalisation graphique et mise en page.
 ## Tags du vendredi
 
 | Tag | Date | État du projet à cette date |
-|-----|------|-----------------------------|
-| semaine-1 | 14/11/2026 | Palier 1 terminé structure commune(header et footer);inégrations pages principales(index contact      
-                                            et infos-pratiques) et premières mise en forme Css et Bootstrap |
-| semaine-2 |  |  |
-| semaine-3 (option) |  |  |
+semaine-1 | 14/11/2026 | Palier 1 terminé structure commune(header et footer);inégrations pages principales(index contact et  infos-pratiques) et premières mise en forme Css et Bootstrap.
+| semaine-2 
+| semaine-3 (option) 
 
 ## Lancer le projet
 Deux possibilités:1-cliquer sur Code puis "Download Zip"
@@ -161,13 +159,27 @@ travail sur la disposition des images et des textes;
 ajustement de la mise en page responsive;
 
 
+-Jour 9:
+
+vérification du code HTML de l'ensemble des pages avec le validateur W3C;
+
+vérification de la feuille de style CSS avec le validateur CSS du W3C;
+
+contrôle de l'accessibilité avec l'outil Wave Evaluation Tool: textes alternatifs des images, liens d'évitement, structure des titres et navigation au clavier;
+
+vérification des dimensions et du poids des images utilisées sur le site;
+
+tests du responsive design sur différentes résolutions : 375 px, 768 px et 1280 px;
+
+corrections des erreurs détectées lors des vérifications;
+
 ## Lien de mise en ligne (palier 3)
 
 ## Questions posées au client et réponses obtenues
 
-| Date | Question | Réponse |
-|------|----------|---------|
-|      |          |         |
+19/11/2026:quel est  le message de lancement dans la page accueil?  réponse :nocturne gratuite pour le premier jeudi de chque mois.
+19/11/2026 :pour le tarif famille,quell est la conditon et le prix  ?le tarif est de 20€ pour un groupe  deux adultes et 3 jeunes agés de 12 à 17 ans.
+19/11/2026:quelle  signature mettre après le mot de la direction? réponse:"la direction du Muséum de Valbrune" 
 
 ## Difficultés rencontrées et solutions trouvées
 Jour 2:structure commune et intégration Bootstrap

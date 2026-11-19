@@ -17,13 +17,15 @@
 
 <body>
    
+    <a href="#contenu" class="visually-hidden-focusable">Aller au contenu principal dela page </a>
+
     <header>
         
         <nav class=" navbar navbar-expand-lg">
                 
             <div class="container-fluid d-flex justify-content-between align-items-center">   
                         
-                <a class="nav-link" href="index.html"  ><img src="../museum-valbrune/assets/img/logo-museum-valbrune.svg" alt="logo-museum-valbrune-noir"></a>
+                <a class="nav-link" href="index.html"  ><img src="assets/img/logo-museum-valbrune.svg" alt="logo-museum-valbrune-noir"></a>
                         
                 <button class="navbar-toggler " type="button" data-bs-target="#menu" data-bs-toggle="collapse" aria-controls="menu" aria-expanded="false">
                     
@@ -50,23 +52,21 @@
                     </ul>
                         
                 </div>
+
+                <div class="d-none d-lg-block position-fixed end-0 m-3 z-3  ">
+                
+                    <a href="" class="btn" >Billeterie</a>
+                    
+                </div>
                         
             </div>
-            
-            <div class="d-none d-lg-block">
-                
-                    <a href="" class="btn position-fixed top-0 end-0 m-3 z-3  " >Billeterie</a>
-                    
-            </div>
-                
-            
 
         </nav>
 
-        
-
     </header>
-    <main>
+    
+    
+    <main id="contenu">
 
         <nav>
             
@@ -80,25 +80,25 @@
 
         </nav>
 
-
-        <section class="expositions container-fluid">
+        
+        <div class="expositions container-fluid">
             
             <div>
-
+                
                 <h1>Expositions</h1>
                 
                 <p class="legende">Permanentes ou temporaires,elles se visitent toutes avec le meme billet.</p>
                 
             </div>
 
-        </section>
+        </div>
         
         
-        <section class="sommaireExposition">
+        <div class="sommaireExposition">
 
             <div class="row">
                
-                <div class="col-auto" d-flex justify-content-start>
+                <div class="col-auto d-flex justify-content-start">
                     
                     <a href="expositions.html#permanentes" class="btn">Permanentes</a>
                     
@@ -108,18 +108,18 @@
 
             </div>
 
-        </section>
-        
+        </div>
+    
         
         <section id="permanentes">
             
             <h2>Expositions permanentes</h2>
             
-            <div class="row gap-2">
+            <div class="row">
 
                 <div class="exposition1 card">
 
-                    <div class="col-12 col-md-4"><img  src="../museum-valbrune/assets/img/expo-geants-jurassique.webp" alt="Colonne vertébrale fossilisée d_un grand reptile, éclairée latéralement." class="img-fluid" width="800" height="600"></div>
+                    <div class="col-12 col-md-4"><img  src="assets/img/expo-geants-jurassique.webp" alt="Colonne vertébrale fossilisée d_un grand reptile, éclairée latéralement." class="img-fluid" width="800" height="600"></div>
                     
                     <div class="col-12 col-md-8">
                         
@@ -144,7 +144,7 @@
 
                     <div class="col-12 col-md-4">
                         
-                        <img  src="../museum-valbrune/assets/img/expo-forets-ici.webp" alt="Illustration  d'un sous-bois avec des troncs, du feuillage et des champignons." class="img-fluid" width="800" height="600">
+                        <img  src="assets/img/expo-forets-ici.webp" alt="Illustration  d'un sous-bois avec des troncs, du feuillage et des champignons." class="img-fluid" width="800" height="600">
                     
                     </div>
                     
@@ -173,7 +173,7 @@
    
                     <div class="col-12 col-md-4">
                         
-                        <img  src="../museum-valbrune/assets/img/expo-cabinet-curiosites.webp" alt="Étagères d'un cabinet de curiosités présentant des coquillages et des bocaux." class="img-fluid" width="800" height="600">
+                        <img  src="assets/img/expo-cabinet-curiosites.webp" alt="Étagères d'un cabinet de curiosités présentant des coquillages et des bocaux." class="img-fluid w-100 h-100  object-fit-cover" width="800" height="600">
                         
                     </div>
                     
@@ -207,13 +207,13 @@
             
             <h2>Expositions temporaires</h2>
             
-            <div class="row">
+            <div class="row ">
 
-                <div class="col-12 col-lg-6 d-flex flex-column align-items-start">
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-start card">
 
-                    <img src="../museum-valbrune/assets/img/expo-lumieres-sous-sol.webp" alt="Cristaux de minéraux fluorescents illuminés dans l'obscurité." class="img-fluid" width="800" height="600">
+                    <img src="assets/img/expo-lumieres-sous-sol.webp" alt="Cristaux de minéraux fluorescents illuminés dans l'obscurité." class="img-fluid" width="800" height="600">
 
-                    <span class="badgeTemporaire texteSecondaire">Temporaire</span>
+                    <span class=" badge badgeTemporaire texteSecondaire">Temporaire</span>
 
                     <h3>Lumière du sous-sol</h3>
                     
@@ -229,11 +229,11 @@
                 </div>
                 
 
-                <div class="col-12 col-lg-6 d-flex flex-column align-items-start">
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-start card">
+                    
+                    <img src="assets/img/expo-plumes-riviere.webp" alt="Plumes déposées au bord de l'eau, avec les reflets de la rivière" class="img-fluid  " width="800" height="600">
 
-                    <img src="../museum-valbrune/assets/img/expo-plumes-riviere.webp" alt="Plumes déposées au bord de l'eau, avec les reflets de la rivière" class="img-fluid" width="800" height="600">
-
-                    <span class="badgeTemporaire texteSecondaire">Temporaire</span>
+                    <span class=" badge badgeTemporaire texteSecondaire">Temporaire</span>
 
                     <h3>Plumes de rivière</h3>
                     
@@ -311,7 +311,7 @@
                     
                         <h3>Horaires</h3>
                     
-                        <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10H.Fermé le lundi</p>
+                        <p>Mardi au vendredi:10h-18h-Samedi et dimanche:10h-19h.Fermé le lundi</p>
                     
                     </div>
 
@@ -333,11 +333,11 @@
 
                         <div class="d-flex gap-2">
 
-                            <div class="d-flex justify-content-center align-items-center rounded-circle bg-primary">FB</div>
+                            <div class="d-flex justify-content-center align-items-center rounded-circle cercle">FB</div>
 
-                            <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger-subtle">IG</div>
+                            <div class="d-flex justify-content-center align-items-center rounded-circle cercle">IG</div>
 
-                            <div class="d-flex justify-content-center align-items-center rounded-circle bg-danger">YT</div>
+                            <div class="d-flex justify-content-center align-items-center rounded-circle cercle">YT</div>
 
                             
                         </div>

@@ -67,6 +67,8 @@
    
    --mv-section-space:48px;
    --mv-section-space:48px;
+   --mv-padding:0.5rem;
+   --mv-margin:0.5rem;
    --mv-gutter:24px;
    --mv-container-max-width:1148px;
 
@@ -80,6 +82,7 @@
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+    padding: var(--mv-padding);
   }
 
    h1{
@@ -108,6 +111,7 @@
   section{
     margin: var(--mv-section-space);
     max-width: var(--mv-width);
+    padding: var(--mv-padding);
   }
 @media screen and (max-width:768px) {
   :root{
@@ -122,6 +126,7 @@
   background-color: var(--mv-lichen);
   color: #ffffff;
   border-radius: 8px;
+  margin: var(--mv-margin);
 }
 
 .btn:hover,.btn:focus{
@@ -142,6 +147,7 @@
   border: 1px solid var(--mv-encre);
   border-radius: 8px;
   padding: 8px 16px;
+  margin: var(--mv-margin);
 }
 .texteSecondaire,.date,.resume,.legende{
     font-size: var(--mv-font-size2);
@@ -154,7 +160,16 @@
   }
   .card{
     border-radius: 8px;
+    padding:var(--mv-padding);
+    margin: var(--mv-margin);
   }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  
 
   footer{
     background-color: var(--mv-encre);
@@ -275,6 +290,10 @@
   background-color: var(--mv-ocre);
   display: block;
   width:5px;
+}
+
+.nosMissions{
+  margin: 0;
 }
 
 
