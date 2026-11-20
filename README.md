@@ -8,10 +8,10 @@ Projet de formation : intégration HTML5 / Bootstrap d'un site vitrine à partir
 - Formation (DWWM / CDA) : 2026/2027
 - Dates du projet : 10/11/2026
 
-## Palier atteint
+## Palier atteintx
 
 - [x] Palier 1 : Socle 14/11/2026
-- [ ] Palier 2 : Standard
+- [x] Palier 2 : Standard
 - [ ] Palier 3 : Avancé
 
 ## Dépôt GitHub
@@ -25,8 +25,10 @@ CSS3: personnalisation graphique et mise en page.
 ## Tags du vendredi
 
 | Tag | Date | État du projet à cette date |
-semaine-1 | 14/11/2026 | Palier 1 terminé structure commune(header et footer);inégrations pages principales(index contact et  infos-pratiques) et premières mise en forme Css et Bootstrap.
-| semaine-2 
+| semaine-1 | 14/11/2026 | Palier 1 terminé structure commune(header et footer);inégrations pages principales(index contact et  infos-pratiques) et premières mise en forme Css et Bootstrap.
+
+| semaine-2 | 20/11/2026 | Palier 2 terminé intégration des pages du Muséum de Valbrune(expositions,le muséum et mentions-légales);mise en place du responsive avec Bootstrap 5;vérification de la conformité Html et Css avec les validateurs W3C;contrôle de l'accessibilité avec WAVE;tetst d'affichage sur différentes tailles écrans;dépôt et suivi sur github.
+
 | semaine-3 (option) 
 
 ## Lancer le projet
