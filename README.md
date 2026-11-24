@@ -8,10 +8,10 @@ Projet de formation : intégration HTML5 / Bootstrap d'un site vitrine à partir
 - Formation (DWWM / CDA) : 2026/2027
 - Dates du projet : 10/11/2026
 
-## Palier atteintx
+## Palier atteints
 
 - [x] Palier 1 : Socle 14/11/2026
-- [x] Palier 2 : Standard
+- [x] Palier 2 : 20/11/2026
 - [ ] Palier 3 : Avancé
 
 ## Dépôt GitHub

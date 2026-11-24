@@ -296,6 +296,29 @@
   margin: 0;
 }
 
+/* agenda.html*/
+
+.accordion{
+  margin: var(--mv-margin);
+}
+
+.agenda-colonne {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+/* FLEXBOX : répartir équitablement l'espace entre plusieurs colonnes.
+
+   flex: 1 1 0;
+   - 1 (flex-grow) : autorise la colonne à grandir pour occuper l'espace disponible.
+   - 1 (flex-shrink) : autorise la colonne à rétrécir si l'espace manque.
+   - 0 (flex-basis) : définit une base de largeur de 0 pour répartir équitablement l'espace.
+
+   min-width: 0;
+   - Autorise la colonne à devenir plus petite que la largeur minimale de son contenu.
+   - Évite qu'un texte trop long impose une largeur excessive à la colonne.
+*/
+
 
 
   /* h2{ 
