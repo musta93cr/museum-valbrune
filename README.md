@@ -175,12 +175,26 @@ tests du responsive design sur différentes résolutions : 375 px, 768 px et 128
 
 corrections des erreurs détectées lors des vérifications;
 
+-Jour 10: Page Agenda
+
+création de la page agenda.html;
+
+Mise en place de trois accordéons Bootstrap pour afficher et masquer le contenu prévu;
+
+configuration des identifiants et des attributs nécessaires au fonctionnement des accordéons;
+
+utilisation de Flexbox et des classes Bootstrap pour organiser le contenu sur plusieurs colonnes;
+
+adaptation de l'affichage responsive pour empiler le contenu sur petit écran;
+
 ## Lien de mise en ligne (palier 3)
 
 ## Questions posées au client et réponses obtenues
 
 19/11/2026:quel est  le message de lancement dans la page accueil?  réponse :nocturne gratuite pour le premier jeudi de chque mois.
+
 19/11/2026 :pour le tarif famille,quell est la conditon et le prix  ?le tarif est de 20€ pour un groupe  deux adultes et 3 jeunes agés de 12 à 17 ans.
+
 19/11/2026:quelle  signature mettre après le mot de la direction? réponse:"la direction du Muséum de Valbrune" 
 
 ## Difficultés rencontrées et solutions trouvées
@@ -242,6 +256,17 @@ trouver les bonnes proportions des images et organiser les éléments dans les c
 solution:
 
 utilisation des classes de grille et des outils Flexbox et de Bootstrap pour organiser les contenus et adapter leur affichage.
+
+-Jour 10 : page Agenda
+
+difficultés : 
+
+compréhension du fonctionnement de l'accordéon notamment l'organisation du contenu en colonnes pour adapter son affichage en responsive,la répartition des éléments dans une div en d-flex;la relation entre les identifiants, les boutons et panneaux;
+
+solutions :
+
+utilisation des attributs data-bstarget,aria-controls pour relier les boutons et panneaux;
+utilisation de flexbox et des propriétés flex-grow,flex-shrink et flex-basis pour la répartition des colonnes.
 
 ## Sources consultées
 Cahier des charges et wireframes fournis par Diginamic.
