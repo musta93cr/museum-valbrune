@@ -1,0 +1,25 @@
+{
+  "name": "museum-valbrune",
+  "version": "1.0.0",
+  "description": "Projet de formation : intégration HTML5 / Bootstrap d'un site vitrine à partir de maquettes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musta93cr/museum-valbrune.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/musta93cr/museum-valbrune/issues"
+  },
+  "homepage": "https://github.com/musta93cr/museum-valbrune#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.108.2"
+  }
+}

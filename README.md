@@ -185,7 +185,15 @@ configuration des identifiants et des attributs nécessaires au fonctionnement d
 
 utilisation de Flexbox et des classes Bootstrap pour organiser le contenu sur plusieurs colonnes;
 
-adaptation de l'affichage responsive pour empiler le contenu sur petit écran;
+adaptation de l'affichage responsive pour empiler le contenu sur petit écran.
+
+-Jour 10(palier 3) : Personnalisation Bootstrap avec Sass
+installation de Bootstrap 5.3.8 et Sass avec npm;
+création de scss/custom.scss;
+personnalisation des couleurs et des polices Bootstrap;
+compilation vers assets/css/bootstrap-custom.css;
+remplacement du CDN Bootstrap par le CSS local;
+création du .gitignore pour exclure node_modules/.
 
 ## Lien de mise en ligne (palier 3)
 
