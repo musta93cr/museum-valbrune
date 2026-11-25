@@ -193,9 +193,12 @@ création de scss/custom.scss;
 personnalisation des couleurs et des polices Bootstrap;
 compilation vers assets/css/bootstrap-custom.css;
 remplacement du CDN Bootstrap par le CSS local;
-création du .gitignore pour exclure node_modules/.
+création du .gitignore pour exclure node_modules/;
+vérification de la mise en ligne du site sur GitHub Pages;
+ajout du lien du site déployé.
 
 ## Lien de mise en ligne (palier 3)
+https://musta93cr.github.io/museum-valbrune/
 
 ## Questions posées au client et réponses obtenues
 
